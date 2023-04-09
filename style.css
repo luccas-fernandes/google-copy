@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+    list-style: none;
+
+}
+body{
+    background: #202124;
+}
+
+.topo{
+    padding: 11.8px;
+}
+.container .topo{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+   
+}.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+   
+   
+}.icon-conta{
+    height: 29px;
+    border-radius: 50px;
+
+}.quadrado-icon{
+    height: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+ 
+
+}.textos{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+   
+}.casinha{
+    float: right;
+    position:absolute;
+    right:0;
+}
+
+.container .area{
+    display: flex;
+ 
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.logo{
+    margin-top: 140px;
+}.google-logo{
+    height: 81px;
+}.area .placeholder{
+    display: flex;
+    height: 40px;
+    width: 500px;
+    border-radius: 300px;
+    gap: 10px;
+    border: 1px solid #5f6368;  
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+}.icon{
+    height: 20px;
+}.pesquisa{
+    width: 350px;
+    height: 100%;
+    background: #202124;
+    border-color: transparent;
+    outline: none;
+    color: rgb(236, 236, 236);
+}
+.teclado{
+    height: 10px;
+}
+
+.buttons button{
+    height: 33px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #303134;
+    color: white;
+    margin: 0 5px;
+    text-align: center;
+
+}
+.rodape{
+    background: #171717;
+    color: #9aa0a6;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.local{
+    border-bottom: #5f6368 solid 1px;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+.lista-esquerda{
+    display: flex;
+    gap: 30px;
+    padding: 15px 20px;
+    font-size: 12px;
+}
+.lista-direita{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    padding-right: 20px;
+}
